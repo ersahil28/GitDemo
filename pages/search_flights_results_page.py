@@ -44,4 +44,4 @@ class SearchFlightResults(BaseDriver):
             self.log.warning("Selected non stop flights")
             time.sleep(2)
         else:
-            self.log.warning("Please provide valid filter option")
+            self.log.warning("Please provide valid filter option Modfied for git")
