@@ -41,7 +41,7 @@ class SearchFlightResults(BaseDriver):
             time.sleep(2)
         elif by_stop == "Non Stop":
             self.get_filter_by_non_stop_icon().click()
-            self.log.warning("Selected non stop flights")
+            self.log.warning("Selected non stop flights modidied by gitX")
             time.sleep(2)
         else:
             self.log.warning("Please provide valid filter option Modfied for git")
